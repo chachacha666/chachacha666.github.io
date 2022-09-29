@@ -1,0 +1,33 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-image: url(header.jpg);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+button  {
+  background-color: orange;
+  border-radius: 30px;
+  border: solid white 3px;
+  padding: 15px 10px;
+  color: white;
+  margin-top: solid, orange, width:40px 2px;
+}
+h1 {
+  margin-bottom: 150px;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: all 1s;
+}
